@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: 'Cormorant Garamond', serif;;
+    background-image: url("../../public/images/notesbg.jpg");
+    color: rgb(0, 0, 0);
+  }
+   
+   
+  .catatan-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: rgb(202, 193, 165);
+  }
+   
+  .catatan-app  h1 {
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+   
+  .catatan-item {
+    align-items: center;
+    margin: 25px 0;
+    border: 1px dashed rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 8px;
+  }  
+   
+  .catatan-item__body {
+    margin-left: 8px;
+    padding-left: 8px;
+    padding-top: 10px;
+  }
+   
+  .catatan-item__body h3 {
+    padding: 5px 0;
+    font-size: 22px;
+  }
+
+  .catatan-item__body h3:hover {
+    color: white;
+  }
+
+  .catatan-item__body time {
+    font-size: 0.9rem;
+    display: inline;
+    color: #4e4e4e;
+    font-size: 16px;
+  }
+
+  .catatan-item__body p {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+   
+  .catatan-item__delete {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #745f45;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .catatan-item__detail {
+    align-items: center;
+    margin: 25px 0;
+    border: 1px dashed rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 8px;
+    padding-left: 8px;
+    padding-top: 10px;
+  }  
+   
+  .catatan-item__detail h3 {
+    padding: 5px 0;
+    font-size: 40px;
+  }
+
+  .catatan-item__detail time {
+    display: inline;
+    color: #4e4e4e;
+    font-size: 20px;
+  }
+
+  .catatan-item__detail p {
+    padding: 10px 0;
+    font-size: 25px;
+  }
+   
+  .catatan-input {
+    border: 1px dashed white;
+    padding: 16px;
+    margin: 14px 0;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+   
+  .catatan-input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    border: 0px;
+  }
+
+  .catatan-input textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    border: 0px;
+    border-radius: 4px;
+    height: 200px;
+  }
+   
+  .catatan-input button {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #745f45;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    gap: 2rem;
+    font-size: large;
+    text-align: left;
+    list-style-type: none;
+}
+
+.navigation li {
+  font-size: 25px;
+}
+
+.navigation li:hover {
+  color: white;
+}
+
+.login-page {
+  align-items: center;
+  margin: 25px 0;
+  border: 1px dashed rgb(255, 255, 255);
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+    
+}
+
+.register-page {
+  align-items: center;
+    margin: 25px 0;
+    border: 1px dashed rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+:root {
+  --font-color: #333;
+  --background-color: #eee;
+}
+
+[data-theme='dark'] {
+  --font-color: #eee;
+  --background-color: #333;
+  background-image: none;
+}
